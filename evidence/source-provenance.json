@@ -1,0 +1,21 @@
+{
+  "template_commit": "a248b802aa2dec8def8caaf5175f12fc005f8f5c",
+  "course_project": "legacy/04_subtractor4",
+  "top": "sub_4bit",
+  "part": "xc7s75fgga484-1",
+  "constraints": "constraints/sub_4bit.xdc",
+  "files": {
+    "src/sub_4bit.v": {
+      "course_source": "example/fpga_projects_hdl/LAB1/legacy/04_subtractor4/corrected/sub_4bit.v",
+      "sha256": "0dda5e18283aef717ad0f967e46f9ecd0d5caa980ef34076e027e7bbfd803d4d"
+    },
+    "sim/tb_sub_4bit.sv": {
+      "course_source": "example/fpga_projects_hdl/LAB1/common/tb/tb_sub_4bit.sv",
+      "sha256": "9f57b343dc90d1ac46ea0d884c1222ee90dca9b662a99f1efd3cbf5cd7a17a35"
+    },
+    "constraints/sub_4bit.xdc": {
+      "course_source": "example/fpga_projects_hdl/LAB1/common/constraints/sub_4bit.xdc",
+      "sha256": "9d725482e37d890fe23dc4f160d72ed44943740b3a8efeb2ed25c691501ffedf"
+    }
+  }
+}

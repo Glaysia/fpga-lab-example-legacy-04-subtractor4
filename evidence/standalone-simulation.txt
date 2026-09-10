@@ -1,0 +1,13 @@
+RUN C:\msys64\mingw64\bin\iverilog.EXE -g2012 -Wall -I C:\Users\UOS\Documents\fpga-lab-examples-v2\legacy_04_subtractor4\src -I C:\Users\UOS\Documents\fpga-lab-examples-v2\legacy_04_subtractor4\sim -s tb_sub_4bit -o C:\Users\UOS\Documents\fpga-lab-examples-v2\legacy_04_subtractor4\build\sim\run-436f7d291fed43099aebc4d18acba01c\sim.vvp C:\Users\UOS\Documents\fpga-lab-examples-v2\legacy_04_subtractor4\src\sub_4bit.v C:\Users\UOS\Documents\fpga-lab-examples-v2\legacy_04_subtractor4\sim\tb_sub_4bit.sv
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module sub_4bit declared here: C:\Users\UOS\Documents\fpga-lab-examples-v2\legacy_04_subtractor4\src\sub_4bit.v:4
+
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\UOS\Documents\fpga-lab-examples-v2\legacy_04_subtractor4\build\sim\run-436f7d291fed43099aebc4d18acba01c\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB1_PASS sub_4bit cases=256
+C:\Users\UOS\Documents\fpga-lab-examples-v2\legacy_04_subtractor4\sim\tb_sub_4bit.sv:19: $finish called at 2560000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\UOS\Documents\fpga-lab-examples-v2\legacy_04_subtractor4\build\sim\wave.vcd
